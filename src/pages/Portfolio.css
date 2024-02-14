@@ -1,0 +1,54 @@
+/* Add this CSS to your stylesheets (e.g., Portfolio.css) */
+
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .portfolio-content {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-details {
+    padding: 10px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  

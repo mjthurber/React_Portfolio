@@ -1,11 +1,15 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav';
+import Header from './components/Header.jsx';
 
 function App() {
   return (
-    <div className="Navigation">
-      <Nav />
+    <>
+    <div>
+      <Header />
     </div>
+      <Outlet />
+    </>
   );
 }
 
