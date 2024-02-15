@@ -1,5 +1,5 @@
 import gitHubCat from '../assets/GithubCat.png';
-import linkedIn from '../assets/linkedInIcon.webp';
+import linkedIn from '../assets/linkedInIcon.png';
 import './Footer.css';
 
 function Footer() {
