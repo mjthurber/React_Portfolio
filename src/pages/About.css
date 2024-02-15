@@ -1,59 +1,38 @@
-/* Add this CSS to your stylesheets (e.g., AboutMe.css) */
-
 .about-me-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    color: #333; /* Set the text color to dark */
-  }
-  
-  .about-me-content {
-    text-align: center;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  p {
-    margin-bottom: 15px;
-    line-height: 1.5;
-  }
-  
-  /* Updated styling to match the navigation description */
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333; /* Set the text color to dark */
-    font-weight: bold;
-    font-size: 1rem;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #61dafb; /* Change the color on hover to your preferred color */
-  }
-  
-  .nav-link-active {
-    color: #61dafb; /* Set the color for the active link */
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333; /* Set the text color to dark */
+}
+
+.about-me-content {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Added styles for the profile image */
+.profile-image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%; /* Create a circular border */
+  border: 5px solid #12333d; /* Set the border color and width */
+  margin-bottom: 20px; /* Add spacing below the image */
+}
+
+/* Updated styling to match the navigation description */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+

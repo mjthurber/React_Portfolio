@@ -1,0 +1,20 @@
+/* Resume.css */
+
+.resume-container {
+    margin-bottom: 20px;
+  }
+  
+  .resume-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resume-list li {
+    margin-bottom: 5px; 
+    margin-left: 20px; 
+  }
+  
+  .resume-italic {
+    font-style: italic;
+  }
+  
